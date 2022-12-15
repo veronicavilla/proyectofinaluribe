@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
+@Entity //relacion de datos correctas, se modelan las tablas, atributos-tablas y relacion
 @Table(name="empleados")
 public class Empleado {
 
